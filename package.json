@@ -1,7 +1,7 @@
 {
     "name": "dolphin-html-render-package",
-    "version": "0.0.2",
-    "preferGlobal": true,
+    "version": "0.0.3",
+    "preferGlobal": false,
     "description": "Render html",
     "repository": {
         "type": "git",
