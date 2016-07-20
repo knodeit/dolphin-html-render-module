@@ -17,7 +17,7 @@ myModule.configureFactories(function (WebServerConfigurationFactory) {
 
     if (process.env.NODE_ENV == 'production') {
         app.set('view cache', true);
-        swig.setDefaults({cache: true});
+        swig.setDefaults({cache: 'memory'});
     } else {
         app.set('view cache', false);
         swig.setDefaults({
